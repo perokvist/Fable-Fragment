@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FableFragment", "src\FableFragment\FableFragment.fsproj", "{90392AA4-000B-41F8-AF6E-A422B29B68B8}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FableFragment", "src\FableFragment\FableFragment.fsproj", "{90392AA4-000B-41F8-AF6E-A422B29B68B8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Web", "src\Web\Web.fsproj", "{74644EED-6195-4E88-9218-0E7D82419B2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{90392AA4-000B-41F8-AF6E-A422B29B68B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90392AA4-000B-41F8-AF6E-A422B29B68B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90392AA4-000B-41F8-AF6E-A422B29B68B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74644EED-6195-4E88-9218-0E7D82419B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74644EED-6195-4E88-9218-0E7D82419B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74644EED-6195-4E88-9218-0E7D82419B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74644EED-6195-4E88-9218-0E7D82419B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

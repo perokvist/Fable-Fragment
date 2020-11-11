@@ -5,8 +5,8 @@ export const window$ = window;
 export const myButton = createAtom((() => {
     let objectArg;
     const clo1 = (objectArg = window$.document, (arg00) => objectArg.getElementById(arg00));
-    return clo1("myBtn");
+    return clo1("buy-btn");
 })());
 
-myButton().textContent = "changed";
+myButton().textContent = "changed!";
 

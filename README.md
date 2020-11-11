@@ -8,24 +8,20 @@ A sample of a fragment with behavior written in fable.
 - parcel
 
 In the root of the repository run;
+
 ```bash
 dotnet tool restore
 ```
 
-In the folder of the fable-fragment project you could run;
+```bash
+dotnet watch -p .\src\Web\ run
+```
 
 ```bash
-dotnet fable
+dotnet fable watch .\src\FableFragment\ --runWatch parcel build .\src\FableFragment\Fragment.fs.js -d .\src\web\wwwroot\dist
 ```
-This will produce the fragment.js file with import of needed fable files.
+> build is optional
 
-If you run;
-```bash
-dotnet fable watch src --run parcel index.html
-```
-This will then run parcel and start a server, for development.
 
-For a "production" dist run;
-```bash
-dotnet fable watch src --run parcel build index.html
-```
+
+[?](https://www.compositional-it.com/news-blog/5-reasons-to-use-f-to-generate-html/)
